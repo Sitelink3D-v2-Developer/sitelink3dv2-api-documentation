@@ -16,7 +16,7 @@ The documentation in this repository is comprised of sequential chapters which i
 Most API operations rely on the context of a site. Whether you’ve already got a site created in the Sitelink3D v2 web portal or you’re relying entirely on the API, this chapter will introduce site basics and point to code examples that interact with ```siteowner```, the microservice responsible for site creation and management.
 
 ### 2. RDM (Replicated Domain Model)
-Don’t let the terminology put you off. RDM is simply the technology we’ve built for defining and distributing objects within the Sitelink3D v2 ecosystem. RDM is one of the simplest ways to get working with our API. In this chapter we’ll be looking at examples of creating objects by writing to the ```rdm_log``` microservice and then using views with the ```rdm``` microservice to read data back.
+Don’t let the terminology put you off. RDM is simply the technology we’ve built for defining and distributing objects within the Sitelink3D v2 ecosystem. RDM is one of the simplest ways to get working with our API. In this chapter we’ll be looking at examples of creating objects by writing to the ```rdm``` microservice and then using views to read data back.
 
 ### 3. Files
 Now that we know about sites and RDM, we have everything we need to start adding files to a Sitelink3D v2 site. File management is quite simple and is the foundation of importing design objects for use on machine control clients. In this chapter we’ll cover the basics of the ```file``` microservice and then move onto more advanced examples including file versioning and different domains.
