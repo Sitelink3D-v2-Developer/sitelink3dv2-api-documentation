@@ -17,5 +17,8 @@ Reporting is the first place to look for producing work output. In this chapter,
 ## 6. SmartView
 Where reports produce historical information about site activity, SmartView is our live data streaming technology. SmartView is comprised of a suite of context specific apps running in the cloud. We call these SmartApps. This chapter introduces the basics of the ```smart_view``` microservice, how to connect to a SmartView SmartApp and how to stream and interpret the resulting data. SmartView streams are an excellent way to populate live site information on a dashboard or other radiator for your customers.
 
-## 7. AsBuilt
+## 7. MFK
+Like SmartView, MFK (Machine Forward Kinematics) is a live data streaming technology that describes in detail the location and shape of a machine at high frequency.
+
+## 8. AsBuilt
 In this chapter, we introduce some concepts around AsBuilt using 3DMC as a machine control client for context. You’ll expand on your knowledge of Tasks from Chapter 4 and discover how sequences are used to group AsBuilt work. Lastly, we will demonstrate a point cloud report that provides AsBuilt output for your consumption.
