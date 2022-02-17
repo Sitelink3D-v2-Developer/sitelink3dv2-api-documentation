@@ -2,7 +2,7 @@
 To use the Sitelink3D v2 API, clients require an Access Token to authorize their requests. On this page, we will walk through the process of obtaining an Access Token to use when making calls to the Sitelink3D v2 API within your application.
 
 Firstly, third-party Sitelink3D v2 Client’s must be registered to use the Sitelink3D v2 API.  Clients are issued a Client Id and Client Secret that are used to authenticate their requests.
-To register a new Third-party Client, please submit a request via:
+To register a new Third-party Client, please submit a request via https://credentials.sitelink.topcon.com/.
 
 ____
 
