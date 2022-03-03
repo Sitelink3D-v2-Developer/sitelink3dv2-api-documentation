@@ -24,9 +24,9 @@ See below for instructions on enabling both methods within your application.
 ### Step 1. Redirect user to authorization page
 The user will be required to sign into Topcon SSO and then authorize the connection with the client.
 
-![Sign In](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/SHTS-3000/setup/images/getting_authorized_sign_in.png "Sign In")
+![Sign In](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/master/setup/images/getting_authorized_sign_in.png "Sign In")
 
-![Request Access](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/SHTS-3000/setup/images/getting_authorized_request_access.png "Request Access")
+![Request Access](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/master/setup/images/getting_authorized_request_access.png "Request Access")
 
 #### Request
 ```https://{host}/authorize?client_id={}&redirect_uri={}&response_type=code&state={}&code_challenge={}&code_challenge_method=s256```
@@ -119,39 +119,39 @@ Sign in to the Sitelink3D v2 web portal appropriate for the environment and clic
 | QA               | http://topcon-ace-stg.topconpositioning.com/ |
 | Production       | https://sitelink.topcon.com/                 |
 
-![User Manager](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/SHTS-3000/setup/images/getting_authorized_user_manager.png "User Manager")
+![User Manager](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/master/setup/images/getting_authorized_user_manager.png "User Manager")
 
 Click Manage External Users from the list actions.
 
-![Manage External Users](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/SHTS-3000/setup/images/getting_authorized_manage_external_users.png "Manage External Users")
+![Manage External Users](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/master/setup/images/getting_authorized_manage_external_users.png "Manage External Users")
 
 Click New External User from the page actions.
 
-![New External User](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/SHTS-3000/setup/images/getting_authorized_new_external_user.png "New External User")
+![New External User](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/master/setup/images/getting_authorized_new_external_user.png "New External User")
 
 Enter the new External User details and click Save.
 
-![Save External User](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/SHTS-3000/setup/images/getting_authorized_save_external_user.png "Save External User")
+![Save External User](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/master/setup/images/getting_authorized_save_external_user.png "Save External User")
 
 ### Step 2. Assign the External User to Roles
 
 In the User Manager, select the site or the organization that you want grant external access to. Then, select a Role from the Roles list and click Manage Members from the list actions.
 
-![Manage Role Members](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/SHTS-3000/setup/images/getting_authorized_manage_role_members.png "Manage Role Members")
+![Manage Role Members](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/master/setup/images/getting_authorized_manage_role_members.png "Manage Role Members")
 
 Finally, select the External User to grant the Role access for the Site and click Save.
 
-![Save Role Members](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/SHTS-3000/setup/images/getting_authorized_save_role_members.png "Save Role Members")
+![Save Role Members](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/master/setup/images/getting_authorized_save_role_members.png "Save Role Members")
 
 ### Step 3. Copy the External User Policy Scope ID
 
 In the External Users window, select the External User and click View Policy from the list actions.
 
-![View Policy](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/SHTS-3000/setup/images/getting_authorized_view_policy.png "View Policy")
+![View Policy](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/master/setup/images/getting_authorized_view_policy.png "View Policy")
 
 The External User's Policy Scope ID is displayed in the top left of the window. Click the Clipboard icon to copy it to your clipboard.
 
-![Copy Policy](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/SHTS-3000/setup/images/getting_authorized_copy_policy.png "Copy Policy")
+![Copy Policy](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/master/setup/images/getting_authorized_copy_policy.png "Copy Policy")
 
 > NOTE: The External User Policy window also allows you to copy the Resource URL for sites and organizations. The Resource URL contains the site UUID and organization UUID required for creating Sitelink API endpoint URLs.  See the Sitelink API Swagger documentation for more information here: https://api.sitelink.topcon.com/swagger
 
@@ -184,9 +184,9 @@ A python example that performs this exchange is available in our example reposit
 #### Postman REST Client Example
 The following example demonstrates the above process in the production environment. Adjust the URL if working with QA.
 
-![Postman Request Token](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/SHTS-3000/setup/images/getting_authorized_postman_request_token.png "Postman Request Token")
+![Postman Request Token](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/master/setup/images/getting_authorized_postman_request_token.png "Postman Request Token")
 
-![Postman Response Token](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/SHTS-3000/setup/images/getting_authorized_postman_response_token.png "Postman Response Token")
+![Postman Response Token](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/master/setup/images/getting_authorized_postman_response_token.png "Postman Response Token")
 
 #### CURL Example
 ```
@@ -200,7 +200,7 @@ Now that you have the Access Token, authenticating against the Sitelink3D v2 API
 To use HTTP Header authentication, simply add an “Authorization” HTTP Header with value “Bearer {access_token}".
 
 Postman REST Client example:
-![Postman Request Header](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/SHTS-3000/setup/images/getting_authorized_postman_request_header.png "Postman Request Header")
+![Postman Request Header](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/master/setup/images/getting_authorized_postman_request_header.png "Postman Request Header")
 
 #### CURL Example
 ```
@@ -211,7 +211,7 @@ curl --location --request GET "https://api.sitelink.topcon.com/siteowner/v1/site
 To use query parameter authentication, simply add an “access_token” parameter to the request URL as per the below examples. This method should only be used when you are not able to add HTTP Headers.
 
 #### Postman REST Client Example
-![Postman Request Params](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/SHTS-3000/setup/images/getting_authorized_postman_request_params.png "Postman Request Params")
+![Postman Request Params](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-api-documentation/blob/master/setup/images/getting_authorized_postman_request_params.png "Postman Request Params")
 
 #### CURL Example
 ```
