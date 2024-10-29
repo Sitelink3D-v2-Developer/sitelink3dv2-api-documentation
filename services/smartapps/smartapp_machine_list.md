@@ -41,7 +41,7 @@ Our data is keyed by machine URNS, which look like:
 ​
 `"urn:X-topcon:{type}:ac:{asset_class}:oem:{oem}:model:{model}:sn:{serial_number}:id:{machine_name}"`
 ​
-The various fields are separated out for the `"device"` and `"machine"` records; they can also be overridden in RDM by editing the asset record. See the RDM list example [here](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-examples/tree/main/components/metadata/metadata_list) to view the assets at a site using the API.
+The various fields are separated out for the `"device"` and `"machine"` records; they can also be overridden in RDM by editing the asset record. See the RDM list example [here](https://github.com/Sitelink3D-v2-Developer/sitelink3dv2-examples/tree/main/components/rdm/rdm_list) to view the assets at a site using the API.
 ​
 ## Machine Data
 ​

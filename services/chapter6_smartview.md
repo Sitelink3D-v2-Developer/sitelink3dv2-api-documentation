@@ -66,7 +66,7 @@ As described [here](https://html.spec.whatwg.org/multipage/server-sent-events.ht
 - events (start with ‘event:’).
 - data (start with ‘data:’).
 
-Language specific handling is required to process theevent streams: 
+Language specific handling is required to process the event streams: 
 - Python requests library requires a stream=True parameter.
 - Javascript requires an EventSource.
 
